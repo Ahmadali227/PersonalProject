@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#top_nav{
+    background-color: rgb(187, 187, 33) !important; 
+    padding: 0 8%;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255) !important;
+    font-size: 20px !important;
+    padding-left: 30px !important;;
+}
+
+#searchbox{
+    background-color: rgb(180, 180, 55);
+    color: white;
+    border: 0px;
+    position: relative;
+    left: 47px;
+    box-shadow: 10px 10px 8px #888888;
+}
+#searchbox::placeholder {
+    color: white;
+}
+#searchbtn{
+    background-color: rgb(55, 155, 180);
+    color: white;
+    border: 0px;
+    border-radius: 0px;
+    position: relative;
+    z-index: 9;
+    top: 0.5px;
+}
+
+@media only screen and (max-width: 988px) {
+    #searchform{
+        padding-bottom: 10px;
+    }
+    #searchbox{
+        position: relative;
+        left: 27px;
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 480px) {
+    #searchbox{
+        width: 80%;
+    }
+}
+
+#banner{
+    background-color: rgb(180, 180, 55);
+}
+
+#bannertext h1{
+    margin-top: 10px;
+    color: white;
+    font-size: 60px;
+}
+#bannertext p{
+    color: white;
+    font-size: 18px;
+    margin-top: 25px;
+    
+}
+#banner2-image{
+    width : 450px;
+}
+
+#banner-btn1{
+background-color: #379bb4;
+border: 2px solid #379bb4;
+color: white;
+margin-top: 15px;
+margin-right: 15px;
+}
+#banner-btn2{
+
+border: 2px solid white;
+color: white;
+margin-top: 15px;
+}
+
+
+
+@media only screen and (max-width: 1300px) {
+    #bannertext h1{
+        font-size: 35px;
+    }
+    #bannertext p{
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    #bannertext h1{
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width: 900px) {
+    #bannertext h1{
+        font-size: 30px;
+    }
+    #bannertext p{
+        font-size: 13px;
+    }
+    #banner2-image{
+        margin-top: 20px;
+    }
+}
+
+/* Service */
+/* #Service-{
+    background-color: rgb(180, 180, 55);
+} */
+
+#Service-text {
+    padding-top : 10%;
+    padding-bottom : 5%;
+}
+#Service-text h1{
+    margin-top: 10px;
+    color: black;
+    font-size: 60px;
+}
+#Service-text p{
+    color: black;
+    font-size: 18px;
+    margin-top: 25px;
+    
+}
+#Service-image{
+    width : 700px;
+    padding: 5%;
+}
+
+#Service-btn1{
+background-color: #379bb4;
+border: 2px solid #379bb4;
+color: white;
+}
+
+
+
+@media only screen and (max-width: 1450px) {
+    #Service-text h1{
+        font-size: 45px;
+    }
+    
+    
+}
+
+@media only screen and (max-width: 1100px) {
+    #Service-text h1{
+        font-size: 35px;
+    }
+    #Service-image{
+        margin-top: 20px;
+    }
+    
+    #Service-text p{
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 900px) {
+    #Service-text h1{
+        font-size: 30px;
+    }
+    #Service-text p{
+        font-size: 13px;
+    }
+    #Service-image{
+        margin-top: 20px;
+    }
+}
+
+/* counter */
+#counter{
+    background-color: rgb(180, 180, 55);
+    padding-top: 50px;
+    padding-bottom: 70px;
+} 
+
+.counter-icon{
+    font-size: 50px;
+}
+
+
+/* blog */
+#blog{
+    padding: 70px 0;
+}
+
+#blog-h{
+    font-size: 50px;
+    font-weight: bolder;
+}
+#blog-p{
+    font-size: 20px;
+    margin-bottom: 60px;
+}
+
+.ariticle-detail{
+    padding: 15px;
+    border: 2px solid rgb(185, 185, 185);
+    border-top: 0;
+}
+
+.ariticle-title{
+    font-weight: bolder;
+}
+.ariticle-date, .ariticle-link{
+    color: #379bb4;
+}
+
+/* footer */
+#footer{
+    padding: 80px 0;
+    background-color: #2b2b2b;
+}
+#footer a{
+    color: white;
+    text-decoration: none;
+}
+
+#footer-searchBox{
+    background-color: rgb(180, 180, 55);
+    color: white;
+    border: 0;
+    padding: 10px;
+    width: 100%;
+    max-width: 300px;
+    position: relative;
+    left: 10px;
+}
+#footer-searchButton{
+    background-color:  #379bb4;
+    color: white;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 0;
+
+}
+
+.social-icon{
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+@media only screen and (max-width: 1172px) {
+    #footer-searchBox{
+        max-width: 200px;
+    }
+}
+@media only screen and (max-width: 880px) {
+    #footer-searchBox{
+        max-width: 160px;
+    }
+}
+@media only screen and (max-width: 760px) {
+    #footer-searchBox{
+        max-width: 200px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
